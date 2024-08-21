@@ -13,7 +13,7 @@ CREATE TABLE "FULL-TIME STAFF"
 --Add all employees that are in this sector, to the table using specific coloumn attributes
 
 INSERT INTO "FULL-TIME STAFF"
-VALUES (41,'Quinn','Parker','Canada','Toronto','1994-09-05','Marketing Manager '),
-       (42,'Scarlett','Collins','Canada','Toronto','1978-08-17','Marketing Director'),
-       (43,'Alyssa','Brooks','Canada','Toronto','1994-06-12','Marketing Coordinator'),
-       (44, 'Samantha', 'Lewis','Canada','Toronto','1985-07-11','Brand Manager');
+VALUES (14,'Ryan','Davis','Canada','Toronto','1994-02-06','HR Manager'),
+       (15,'Olivia','Taylor','Canada','Toronto','1970-05-06','HR Director'),
+       (16,'Jacob','Wilson','Canada','Toronto','1988-10-12','Recruitment Manager'),
+       (17, 'Ethan', 'Clark','Canada','Toronto','1982-07-07','HR Administrator');
