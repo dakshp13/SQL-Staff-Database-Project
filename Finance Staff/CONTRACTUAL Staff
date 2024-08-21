@@ -6,7 +6,7 @@ CREATE TABLE "CONTRACTUAL STAFF"
    "Employee Last Name" varchar(255) NOT NULL ,
    "Country" varchar(255) NOT NULL ,
    "City" varchar(255) NOT NULL ,
-   "Date of Birth" DATE NOT NULL , --in format YYYY-MM_DD
+   "Date of Birth" DATE NOT NULL , --in format YYYY-MM-DD
    "Job Title" varchar(255) NOT NULL,
    "Contract Start Date" Date NOT NULL,
    "Contract End Date" Date NOT NULL
