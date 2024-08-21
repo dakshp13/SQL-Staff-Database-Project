@@ -1,4 +1,4 @@
---Create primary table for all full-time employees in the Sales Department  
+--Create primary table for all contractual employees in the Sales Department  
 
 CREATE TABLE "CONTRACTUAL STAFF"
 (  "Employee ID" int NOT NULL PRIMARY KEY ,
