@@ -15,7 +15,7 @@ WHERE "Job Title" = 'Chief Financial Officer';
 
 -- Now let's select all members of the contractual staff
 -- However we will select all the columns in the table
--- ,and we will order by the end date of their contract
+-- and we will order by the end date of their contract
 
 
 SELECT *
@@ -27,7 +27,7 @@ ORDER BY "Contract End Date" ;
 -- However by putting the DESC we can order it from latest to earliest instead
 
 --If we wanted to right a query for interns
--- ,and we wanted to find interns in york or waterloo university
+-- and we wanted to find interns in york or waterloo university
 -- we can use the OR function to do this
 
 
