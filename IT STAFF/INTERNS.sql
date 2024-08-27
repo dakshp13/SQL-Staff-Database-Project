@@ -7,7 +7,7 @@ CREATE TABLE "INTERNS"
    "Country" varchar(255) NOT NULL ,
    "City" varchar(255) NOT NULL ,
    "School" varchar(255) NOT NULL ,
-   "Date of Birth" DATE NOT NULL , --in format YYYY-MM_DD
+   "Date of Birth" DATE NOT NULL , --in format YYYY-MM-DD
    "Job Title" varchar(255) NOT NULL,
    "Internship Start Date" DATE NOT NULL,
    "Internship End Date" DATE NOT NULL
