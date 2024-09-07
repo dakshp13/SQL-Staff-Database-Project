@@ -1,5 +1,5 @@
---We can use indexes to speed up the searching process for the database
---Say for the full-time staff we are frequently searching up their employeeID
+/*We can use indexes to speed up the searching process for the database.
+Say for the full-time staff we are frequently searching up their employeeID*/
 
 
 CREATE INDEX idx_employeeID
