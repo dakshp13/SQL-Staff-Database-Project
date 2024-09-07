@@ -1,5 +1,5 @@
--- We can use the Union keyword to get the location
--- Of all our permanent employees where their city is Toronto
+/* We can use the Union keyword to get the location
+of all our permanent employees where their city is Toronto */
 
 
 SELECT "Employee First Name","Employee Last Name"
@@ -21,7 +21,7 @@ FROM YoungStaff
 WHERE "Date of Birth" > '1990%';
 
 
---Using this we have created a Common Table Expression that will
---find all employees that are born after the year 1990
+/*Using this we have created a Common Table Expression that will
+find all employees that are born after the year 1990*/
 
 
