@@ -1,5 +1,4 @@
--- These queries will use aggregate functions, which can be
--- very helpful when dealing with databases
+-- These queries will use aggregate functions, which can be very helpful when dealing with databases
 
 
 -- one example is using min and max functions on the date of birth for full-time staff
@@ -18,8 +17,8 @@ FROM "FULL-TIME STAFF";
 
 -- and thus, MAX will show the youngest member
 
---If we wanted to know the amount of Interns in the HR department
---We can use the Count function to generate a finite number
+/*If we wanted to know the amount of Interns in the HR department
+We can use the Count function to generate a finite number*/
 
 
 SELECT COUNT(*) AS 'Number of Interns'
