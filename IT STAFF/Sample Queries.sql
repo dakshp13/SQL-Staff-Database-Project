@@ -1,5 +1,4 @@
--- Using the Between operator is very useful to
--- extract certain information
+-- Using the Between operator is very useful to extract certain information
 
 
 SELECT *
@@ -7,17 +6,14 @@ FROM "FULL-TIME STAFF"
 WHERE "Date of Birth" BETWEEN '1970%' and '1995%';
 
 
---In this situation I have taken birthdays from the year 1970 to 1995
---However I used the % operator as a wildcard
---This means I did not need to specify the month or date of their birth
---And only focused on the year
+/*In this situation I have taken birthdays from the year 1970 to 1995
+However I used the % operator as a wildcard
+This means I did not need to specify the month or date of their birth
+And only focused on the year*/
 
--- We can add columns or drop columns to tables
--- using ALTER TABLE
-
+-- We can add columns or drop columns to tables using ALTER TABLE
 
 --To add
-
 
 ALTER TABLE "FULL-TIME STAFF"
 ADD Wages int;
